@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <script src="script.js"></script>
+    <title>Quiz App</title>
+  </head>
+  <body>
+    <h1 class="score"></h1>
+    <div class="header">
+      <h1 class="questionNumber"></h1>
+      <h2 class="question"></h2>
+    </div>
+
+    <form name="form1">
+      <div class="answers">
+        <input type="radio" name="radioChoice"> <label></label><br>
+        <input type="radio" name="radioChoice"> <label></label><br>
+        <input type="radio" name="radioChoice"> <label></label><br>
+        <input type="radio" name="radioChoice"> <label></label><br>
+        <div class="button"><button class = "next" type="button" onclick="next()">Next</button></div>
+        <div class="button"><button type="button" class = "back" onclick="back()">Back</button></div>
+      </div>
+    </form>
+  </body>
+</html>
